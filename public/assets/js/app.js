@@ -28,3 +28,9 @@ $(function(){
     });
 
 });
+
+function formSubmit() {
+    swal('Thanks!', 'You\'ve signed up for updates.', 'success');
+    $("form").fadeOut();
+    $("form").parent().fadeIn().append('<h4 class="text-warning">Thanks for signing up! We\'ll be in touch soon.</h4>');
+}
