@@ -10,3 +10,5 @@ body {
 .row { margin-bottom:15px; }
 
 form { background-color: #DADADA; padding:25px; margin-top:25px;}
+
+.text-warning { color: #F2D8A8!important }
