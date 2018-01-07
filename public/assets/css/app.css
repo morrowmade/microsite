@@ -1,0 +1,10 @@
+body { 
+    padding-top:100px; 
+    color:white; 
+    background-image: url('/assets/img/hackerspace.jpg'); 
+    background-size: cover;
+}
+
+.row { margin-bottom:35px; }
+
+form { background-color: #DADADA; padding:25px; }
