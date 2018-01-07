@@ -26,24 +26,48 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container d-none d-lg-block" >
             <div class="row justify-content-lg-center">
                 <div class="col col-lg-auto">
                     <form class="form-inline" method="POST" action="#">
                         <div class="input-group mr-2">
-                            <input type="text" class="form-control" placeholder="First name" name="first_name"/>
+                            <input type="text" class="form-control" placeholder="First name" name="first_name" required/>
                         </div>
 
                         <div class="input-group mr-2">
-                            <input type="text" class="form-control" placeholder="Last name" name="last_name"/>
+                            <input type="text" class="form-control" placeholder="Last name" name="last_name" required/>
                         </div>
                          
                         <div class="input-group mr-2">
-                            <input type="email" class="form-control" placeholder="Email" name="email"/>
+                            <input type="email" class="form-control" placeholder="Email" name="email" required/>
                         </div>
 
                         <div class="input-group">
                             <input type="submit" class="btn btn-info" value="Submit"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-lg-none">
+            <div class="row justify-content-lg-center">
+                <div class="col col-lg-auto">
+                    <form class="form" method="POST" action="#">
+                        <div class="form-group mr-2">
+                            <input type="text" class="form-control" placeholder="First name" name="first_name" required/>
+                        </div>
+
+                        <div class="form-group mr-2">
+                            <input type="text" class="form-control" placeholder="Last name" name="last_name" required/>
+                        </div>
+                         
+                        <div class="form-group mr-2">
+                            <input type="email" class="form-control" placeholder="Email" name="email" required/>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-info btn-block" value="Submit"/>
                         </div>
                     </form>
                 </div>
