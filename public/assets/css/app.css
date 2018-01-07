@@ -1,8 +1,14 @@
 body { 
-    padding-top:100px; 
+    padding-top:30px; 
+    height:100%;
+    width:100%;
+    display:flex;
     color:white; 
     background-image: url('/assets/img/hackerspace.jpg'); 
     background-size: cover;
+}
+.content {
+    margin:auto;
 }
 
 .display-3 { line-height:1.0; }
