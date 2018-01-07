@@ -10,7 +10,7 @@ function finish() {
     }).fadeTo(2500, 1);
     
     $(".logo").fadeTo(1500, 0.1, function() {
-        $(this).css('box-shadow', '0px 0px 25px #ffc107').css('border-color', '#ffc107').css('filter', 'sepia()');
+        $(this).addClass('glowing');
     }).fadeTo(2500, 1);
 }
 
@@ -21,7 +21,9 @@ $(function(){
         typeSpeed: 100,
         backSpeed: 50,
         callback : function () {
-            finish()
+            setTimeout(function() {
+                finish()
+            }, 500);
         }
     });
 
